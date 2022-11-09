@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: lightskyblue;
+}
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: #f6c20a;
+    border: 10px solid #d2a402;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    height: 77px;
+    width: 77px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+.tile:hover {
+    background-color: gold;
+}
+.red-piece {
+    background-color: red;
+}
+
+.black-piece {
+   background-color: black;
+
+}
