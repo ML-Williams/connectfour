@@ -72,7 +72,7 @@ function setPiece(event){
     if (checkForWin()){
         return endGame(`Player ${currentPlayer} won! `)
     }
-    if (board.every(row => row.every(tile => tile))) {
+    if (board.every(columns => columns.every(tile => tile))) {
         return endGame('Tie!');
     }
 
